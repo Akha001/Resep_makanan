@@ -1,0 +1,8 @@
+#Mematikan fitur daftar direktori
+Options ALL -Indexes
+
+ErrorDocument 404 "<script> window.location= '404.php' </script>"
+
+<Files install.php>
+allow from all
+</Files>
